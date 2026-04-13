@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact PC Requirement Checker">
+    <meta name="keywords" content="contact, PC requirements, gaming">
+    <title>Contact - PC Requirement Checker</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="icon" type="image/png" href="images/logo.png">
+</head>
+<body>
+   <header id="top">
+        <img style="float: left; margin-right: 10px;" src="images/logo.png" alt="PC Requirement Checker Logo" width="110">
+        <h1>PC Requirement Checker</h1>
+        <p>Please take a little time to fill out this form if you have any complaints or suggestions</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="Minimum.html">Minimum Requirements</a></li>
+            <li><a href="Reccommended.html">Recommended Requirements</a></li>
+            <li id="active"><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <h2>Contact Us</h2>
+
+        <form action="http://foo.com" method="get">
+
+            <label for="name">Name <span style="color: red;">*</span></label><br>
+            <input type="text" id="name" name="name" required><br><br>
+
+            <label for="email">Email <span style="color: red;">*</span></label><br>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label>Topic <span style="color: red;">*</span></label><br>
+            <input type="radio" name="topic" value="minimum" required> Minimum Requirements<br>
+            <input type="radio" name="topic" value="recommended"> Recommended Requirements<br>
+            <input type="radio" name="topic" value="other"> Other<br><br>
+
+            <label for="message">Message <span style="color: red;">*</span></label><br>
+            <textarea id="message" name="message" rows="5" required></textarea><br><br>
+
+            <input type="submit" value="Send Message">
+
+        </form>
+
+        <h2>Our Location</h2>
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2384.748!2d-8.4767!3d54.2766!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x485efd2f9c1e9b3f%3A0x6b1e1e1e1e1e1e1e!2sATU%20Sligo!5e0!3m2!1sen!2sie!4v1620000000000!5m2!1sen!2sie"
+            width="100%"
+            height="400"
+            style="border: 2px solid #6c63ff; border-radius: 8px;"
+            allowfullscreen=""
+            loading="lazy">
+        </iframe>
+    <a href="#top">Back to top</a>
+    </main>
+
+    <footer>
+         
+    <nav>
+        <a href="index.html">Home</a> |
+        <a href="Minimum.html">Minimum Requirements</a> |
+        <a href="Reccommended.html">Recommended Requirements</a> |
+        <a href="contact.html">Contact</a>
+    </nav>
+    <p> 2026 PC Requirement Checker © </p>
+    </footer>
+</body>
+</html>
